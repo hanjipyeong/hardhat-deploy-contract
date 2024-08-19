@@ -1,13 +1,11 @@
-# Swisstronik Tesnet Techinal Task 1
+# Swisstronik Testnet 2.0 - Hardhat Deploy.
 
-link : [Click!](https://www.swisstronik.com/testnet2/dashboard)
+Link : [Click!](https://www.swisstronik.com/testnet2/dashboard)
 
-Feel free donate to my EVM address
+Swisstronik Testnet Address
 
-EVM :
-
-```bash
-0x9902C3A98Df4b240ad5496cC26F89bAb8058f4aE
+```
+0x660e1ce75d156B236fa248b7F8756f2a05EC272D
 ```
 
 ## Steps
@@ -15,7 +13,7 @@ EVM :
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/Mnuralim/hardhat-deploy-contract.git
+git clone https://github.com/hanjipyeong/hardhat-deploy-contract.git
 ```
 
 ```
@@ -32,6 +30,11 @@ npm install
 
 create .env file in root project
 
+```bash
+touch .env
+```
+
+add this to your .env file
 ```bash
 PRIVATE_KEY="your private key"
 ```
@@ -101,15 +104,4 @@ npm run get-message
 npm run set-message
 ```
 
-### 9. Finsihed
-
-- Open the deployed-adddress.ts (location in utils folder)
-- Copy the address and paste the address in testnet dashboard
-- push this project to your github and paste your repository link in testnet dashboard
-
-by :
-github : [Mnuralim](https://github.com/Mnuralim)
-twitter : @Izzycracker04
-telegram : @fitriay19
-
-//0xf1f0C7Bf19ee4E196C0213cEE1002e9a5fadff62//
+### Finished.
